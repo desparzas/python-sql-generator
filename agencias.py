@@ -72,7 +72,7 @@ def main():
     
     
     # guardar las consultas en un archivo, encoding UTF-8
-    with open('./scripts_sql/insert_agencias_2024_colombia.sql', 'w', encoding='utf-8') as f:
+    with open('./scripts_sql/insert_agencias_240122_colombia.sql', 'w', encoding='utf-8') as f:
         f.write('\n'.join(insert_queries))
         
 
